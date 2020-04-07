@@ -14,19 +14,19 @@
 			"patterns": [
 				{
 				  "name": "keyword.control.nutshell",
-			  	"match": "\\b(@COLORS|@TABLE|@NUTSHELL|@ICONS)\\b"
+			  	"match": "(@COLORS|@TABLE|@NUTSHELL|@ICONS)"
 				},
 				{
 					"name": "comment.line",
-					"match": "\\b# .\\b"
+					"match": "# ."
 				},
 				{
 					"name": "entity.name.function",
-					"match": "\\b(weave|reorder)\\b"
+					"match": "(weave|reorder)"
 				},
 				{
 					"name": "keyword.operator",
-					"match": "\\b()\\b"
+					"match": "(\\+|\\*|\\.\\.|-|>|=)"
 				}
 		  ]
 		}
