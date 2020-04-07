@@ -1,4 +1,4 @@
-# ruel README
+# Nutshell Syntax Highlighting README
 
 This is the README for your extension "ruel". After writing up a brief description, we recommend including the following sections.
 
