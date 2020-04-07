@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Nutshell",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+				  "name": "keyword.control.nutshell",
+			  	"match": "\\b(@COLORS|@TABLE|@NUTSHELL|@ICONS)\\b"
+				},
+				{
+					"name": "comment.line",
+					"match": "\\b# .\\b"
+				},
+				{
+					"name": "entity.name.function",
+					"match": "\\b(weave|reorder)\\b"
+				},
+				{
+					"name": "keyword.operator",
+					"match": "\\b()\\b"
+				}
+		  ]
+		}
+	},
+	"scopeName": ""
+}

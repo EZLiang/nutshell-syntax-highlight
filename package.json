@@ -1,0 +1,25 @@
+{
+    "name": "ruel",
+    "displayName": "nutshell",
+    "description": "nutshell",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nutshell",
+            "aliases": ["Nutshell", "nutshell"],
+            "extensions": [".ruel",".tabel",".nutshell"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nutshell",
+            "scopeName": "",
+            "path": "./syntaxes/nutshell.tmLanguage.json"
+        }]
+    }
+}
